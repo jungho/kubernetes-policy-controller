@@ -18,7 +18,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:3c5fa2da8cbfa81f2811f5164a60801f4b6fdb0160636da2b228cbbdec4da098"
+  digest = "1:34e709f36fd4f868fb00dbaf8a6cab4c1ae685832d392874ba9d7c5dec2429d1"
   name = "github.com/gogo/protobuf"
   packages = [
     "proto",
@@ -93,7 +93,7 @@
   version = "1.0.1"
 
 [[projects]]
-  digest = "1:cfde58eec848159546e0569f34347698aa9770abcea60a992d44ba0b455d557c"
+  digest = "1:a41ddbde813fcc37ce5c5cb53fdf15e099a3613c1b2980a6368365a717e98c09"
   name = "github.com/open-policy-agent/opa"
   packages = [
     "ast",
@@ -127,7 +127,7 @@
   revision = "3113b8401b8a98917cde58f8bbd42a1b1c03b1fd"
 
 [[projects]]
-  digest = "1:989561db42f56a24f4571346056cc91b1081fdded2efa3840a6899311f28c265"
+  digest = "1:344dabfda6f714c61a5656e6a4c954af45ccb77e8a57bbb6010bff7300ff7f7c"
   name = "github.com/rite2nikhil/opa"
   packages = ["util"]
   pruneopts = "UT"
@@ -168,7 +168,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:3b66e166f4b7050e06fa17d2b0df260689795fb798ff7c6c88d6ee7571ef148d"
+  digest = "1:88a792a03a354a98ee468d774bc9a882e6d9d666b8f0069deb66d896ba83c163"
   name = "golang.org/x/net"
   packages = [
     "http/httpguts",
@@ -181,7 +181,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:5ae32d66491b746332d552e34580140b9904ab50e59defd90c2b77cb314f61cc"
+  digest = "1:d2605ed96ca0244a457fa8e6c37d5c370ce98ea09dcc21e5e07d967bfcb78878"
   name = "golang.org/x/sys"
   packages = [
     "unix",
@@ -191,7 +191,7 @@
   revision = "95b1ffbd15a57cc5abb3f04402b9e8ec0016a52c"
 
 [[projects]]
-  digest = "1:7509ba4347d1f8de6ae9be8818b0cd1abc3deeffe28aeaf4be6d4b6b5178d9ca"
+  digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
   name = "golang.org/x/text"
   packages = [
     "collate",
@@ -231,7 +231,7 @@
 
 [[projects]]
   branch = "release-1.10"
-  digest = "1:e1956635f7a473324fba0366595d62e06c3a2d35c5438d1ec423fb2afa0b68e5"
+  digest = "1:c95438abd1a40a9863e43cd2a0c6248fe77c113624d37bae66637ea1b3710d04"
   name = "k8s.io/api"
   packages = [
     "admission/v1beta1",
@@ -243,7 +243,7 @@
 
 [[projects]]
   branch = "release-1.10"
-  digest = "1:c655980a3964f31c17729e08db63e0835248f34323a604052313db7cf24cbe36"
+  digest = "1:97c403fabaea6d9db801ad1b75942b5fb0486dd0f97d870052b484bc724117bb"
   name = "k8s.io/apimachinery"
   packages = [
     "pkg/api/resource",
@@ -289,6 +289,7 @@
     "github.com/sirupsen/logrus",
     "github.com/spf13/pflag",
     "k8s.io/api/admission/v1beta1",
+    "k8s.io/api/authentication/v1",
     "k8s.io/api/authorization/v1beta1",
     "k8s.io/apimachinery/pkg/apis/meta/v1",
     "k8s.io/apimachinery/pkg/runtime",
